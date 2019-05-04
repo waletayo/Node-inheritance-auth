@@ -1,0 +1,45 @@
+{
+  "name": "coinshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "temmitayo",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.1.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "logger": "0.0.1",
+    "mongoose": "^5.5.5",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "q": "^1.5.1",
+    "query-string": "^6.5.0",
+    "sendgrid": "^5.2.3",
+    "underscore": "^1.9.1",
+    "url": "^0.11.0",
+    "validator": "^10.11.0",
+    "validatorjs": "^3.15.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "morgan": "^1.9.1"
+  }
+}
